@@ -1,7 +1,7 @@
 **AWS Parameter Store Client**
 ==============================
 
-Just a Python client for AWS Parameter Store. \
+Just a Python client for AWS Parameter Store.\
 It is a wrapper around (and an interface to) boto3.
 
 
@@ -17,7 +17,8 @@ To install this client in a project, from a local dir, add this to `pyproject.to
 [project]
 ...
 dependencies = [
-    "aws-parameter-store-client @ file:///Users/nimiq/workspace/aws-parameter-store-client"
+    "aws-parameter-store-client @ ../aws-parameter-store-client"
+    # "aws-parameter-store-client @ file:///Users/myuser/workspace/aws-parameter-store-client"
 ]
 
 [tool.poetry.dependencies]
@@ -137,7 +138,7 @@ Deployment
 
 ---
 
-This client is not deployed to PyPI. \
+This client is not deployed to PyPI.\
 See the `Usage` section to know how to install and use it.
 
 
